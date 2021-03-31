@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM nginx
+FROM nginx:1.19.9
 
 COPY _book /usr/share/nginx/html
